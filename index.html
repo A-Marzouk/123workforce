@@ -126,7 +126,7 @@
       <!--            img(src="images/quote-2.jpg")-->
       <section class="freelancers">
         <div class="freelancersHeading">
-            Hire the best freelancers!
+          HIRE TOP FREELANCERS
         </div>
          <div class="slickSlide container">
            <div class="col-md-2 freelancerBox">
@@ -485,29 +485,41 @@
     <script type="text/javascript" src="./js/custom.js"></script>
   <script>
       $(document).ready(function(){
+
           $('.slickSlide').slick({
               lazyLoad: 'ondemand',
               dots: true,
               arrows:false,
-              slidesPerRow: 5,
+              slidesToShow: 5,
               slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              cssEase: 'linear',
+              speed:1000,
+              draggable: true,
               responsive: [
                   {
                       breakpoint: 478,
                       settings: {
-                          slidesPerRow: 1,
-                          rows: 1
+                          slidesToShow: 1,
+                          slidesToScroll: 1,
+                          dots: false,
+                          arrows:true,
                       }
                   },
                   {
                       breakpoint: 680,
                       settings: {
-                          slidesPerRow: 2,
-                          rows: 1
+                          slidesToShow: 2,
+                          slidesToScroll: 1,
+                          dots: false,
+                          arrows:true,
                       }
                   }
               ]
         });
+
+
       });
 
   </script>

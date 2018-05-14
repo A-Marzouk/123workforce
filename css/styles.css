@@ -7716,10 +7716,11 @@ a:hover {
 
 
 .freelancersHeading{
-  font-size: 5vh;
-  font-weight: bolder;
-  padding-bottom: 35px;
-  padding-top: 5px;
+  font-size: 20px;
+  color: #adadad;
+  font-family: 'GothamPro-Bold';
+  margin: 0 0 75px 0;
+  text-transform: uppercase;
 }
 
 .slickSlide{
