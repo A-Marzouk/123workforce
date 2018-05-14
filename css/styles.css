@@ -7725,3 +7725,11 @@ a:hover {
 .slickSlide{
   padding-bottom: 25px;
 }
+
+.slick-next:before {
+  color: black;
+}
+
+.slick-prev:before{
+  color: black;
+}
