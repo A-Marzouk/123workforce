@@ -7196,7 +7196,7 @@ a:hover {
   color: #c6b987;
 }
 #main .services .serv.purple-serv {
-  background-image: url('../images/icon_bookkeeping.png');
+  background-image: url('../images/newicon.png');
 }
 #main .services .serv.purple-serv .service {
   color: #6d427e;
@@ -7720,4 +7720,8 @@ a:hover {
   font-weight: bolder;
   padding-bottom: 35px;
   padding-top: 5px;
+}
+
+.slickSlide{
+  padding-bottom: 25px;
 }
