@@ -296,29 +296,49 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-
+                                <label for="name" class="formLabel">Name *</label>
+                                <input type="text" placeholder="Name" id="name" name="Name" required="required" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="telephone" class="formLabel">Telephone *</label>
+                                <input type="tel" placeholder="Telephone" name="Telephone" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="telephone" class="formLabel">Email *</label>
+                                <input type="text" placeholder="Email" name="Email" required="required" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6 designerBtn">
+<!--                                <input type="checkbox" id="bookkeper" name="bookkeper" class="check-input">-->
+                                    <a href="#" class="btn-block">
+                                        I Need a Designer
+                                    </a>
+                            </div>
+                            <div class="col-md-6 designerBtn">
+<!--                            <input type="checkbox" id="accountant" name="accountant" class="check-input">-->
+                                <a href="#" class="btn-block">
+                                    I Need a Developer
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <select name="Select-time" class="form-control">
+                                    <option value="partTime">Part time</option>
+                                    <option value="fullTime">Full time</option>
+                                </select>
                             </div>
                         </div>
 
-                        <input type="text" placeholder="Telephone" name="Telephone" class="text-input">
+                        <div class="row">
 
-                        <input type="text" placeholder="Name *" name="Name" required="required" class="text-input">
-                        <input type="text" placeholder="Email *" name="Email" required="required" class="text-input">
-
-
-                        <input type="checkbox" id="bookkeper" name="bookkeper" class="check-input">
-                        <label for="bookkeper" class="check-label">I need a Designer</label>
-
-                        <input type="checkbox" id="accountant" name="accountant" class="check-input">
-                        <label for="accountant" class="check-label">I need a Developer</label>
-
-                        <select name="Select-time">
-                            <option>Part time</option>
-
-                            <option>Full time</option>
-                        </select>
-
-                        <input type="submit" value="Submit" class="btn-bckgrd">
+                           <div class="buttonMain col-md-6 offset-md-3">
+                               <input type="submit" value="Send" class="hireBtn btn-block">
+                           </div>
+                        </div>
                     </form>
                 </div>
             </div>
