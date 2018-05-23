@@ -34,7 +34,7 @@
                 <div class="col-md-10 offset-md-1">
                     <section class="freelancers">
                         <div class="slickSlide">
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <div class="textImg">Learn more!</div>
@@ -50,7 +50,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Anton.jpg" alt="freelancer"  class="freelancerImg">
@@ -65,7 +65,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Arnold.jpg" alt="freelancer"  class="freelancerImg">
@@ -80,7 +80,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Costa.jpg" alt="freelancer"  class="freelancerImg">
@@ -95,7 +95,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Evgeny.jpg" alt="freelancer"  class="freelancerImg">
@@ -110,7 +110,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Jon.png" alt="freelancer"  class="freelancerImg">
@@ -125,7 +125,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Lars.jpg" alt="freelancer"  class="freelancerImg">
@@ -140,7 +140,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Michelle.jpg" alt="freelancer"  class="freelancerImg">
@@ -155,7 +155,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Shen.jpg" alt="freelancer"  class="freelancerImg">
@@ -170,7 +170,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-md-2 freelancerBox">
+                            <div class="col-md-12 freelancerBox">
                                 <a href="#" class="itemLink">
                                     <div class="freelancerItem">
                                         <img src="images/freelancers/Vitaly.jpg" alt="freelancer"  class="freelancerImg">

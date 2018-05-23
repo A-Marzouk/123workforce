@@ -17,8 +17,9 @@
             lazyLoad: 'ondemand',
             dots: true,
             arrows:false,
-            slidesPerRow: 6,
+            slidesToShow: 6,
             slidesToScroll: 1,
+            autoplay:true,
             responsive: [
                 {
                     breakpoint: 478,
