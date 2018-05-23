@@ -287,7 +287,39 @@
                     </div>
                 </div>
                 <div class="col-md-6 rightSide">
-                    <img src="images/new_theme/20ff0a3e60.jpg" alt="test" width="100%">
+                    <form id="contact-form" method="POST" class="form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="bussinessName" class="formLabel">Business Name</label>
+                                    <input type="text" id="bussinessName" name="Business Name" placeholder="Business Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                            </div>
+                        </div>
+
+                        <input type="text" placeholder="Telephone" name="Telephone" class="text-input">
+
+                        <input type="text" placeholder="Name *" name="Name" required="required" class="text-input">
+                        <input type="text" placeholder="Email *" name="Email" required="required" class="text-input">
+
+
+                        <input type="checkbox" id="bookkeper" name="bookkeper" class="check-input">
+                        <label for="bookkeper" class="check-label">I need a Designer</label>
+
+                        <input type="checkbox" id="accountant" name="accountant" class="check-input">
+                        <label for="accountant" class="check-label">I need a Developer</label>
+
+                        <select name="Select-time">
+                            <option>Part time</option>
+
+                            <option>Full time</option>
+                        </select>
+
+                        <input type="submit" value="Submit" class="btn-bckgrd">
+                    </form>
                 </div>
             </div>
         </div>
@@ -301,7 +333,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 text-right logoImg">
-                    <img src="images/new_theme/logo.png" alt="logo">
+
                 </div>
                 <div class="col-md-4">
                     <div class="footerText">

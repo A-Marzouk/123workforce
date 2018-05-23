@@ -9,6 +9,7 @@
     crossorigin="anonymous"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../slick-master/slick/slick.min.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 <script>
     $(document).ready(function(){

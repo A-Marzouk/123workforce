@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link customNavLink active" href="#">Homepage</a>
-                <a class="nav-item nav-link customNavLink" href="#">Become a client</a>
+                <a class="nav-item nav-link customNavLink" href="/form/client/register/">Become a client</a>
                 <a class="nav-item nav-link customNavLink" href="#">Talk to sales</a>
                 <a href="#" class="loginBtn">Login</a>
             </div>
