@@ -292,41 +292,41 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="bussinessName" class="formLabel">Business Name</label>
-                                    <input type="text" id="bussinessName" name="Business Name" placeholder="Business Name" class="form-control">
+                                    <input type="text" id="bussinessName" name="Business Name" placeholder="Business Name" class="form-control no-border">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <label for="name" class="formLabel">Name *</label>
-                                <input type="text" placeholder="Name" id="name" name="Name" required="required" class="form-control">
+                                <input type="text" placeholder="Name" id="name" name="Name" required="required" class="form-control no-border">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="telephone" class="formLabel">Telephone *</label>
-                                <input type="tel" placeholder="Telephone" name="Telephone" class="form-control">
+                                <input type="tel" placeholder="Telephone" name="Telephone" class="form-control no-border">
                             </div>
                             <div class="col-md-6">
                                 <label for="telephone" class="formLabel">Email *</label>
-                                <input type="text" placeholder="Email" name="Email" required="required" class="form-control">
+                                <input type="text" placeholder="Email" name="Email" required="required" class="form-control no-border">
                             </div>
                         </div>
                         <div class="row form-group">
                             <div class="col-md-6 designerBtn">
 <!--                                <input type="checkbox" id="bookkeper" name="bookkeper" class="check-input">-->
-                                    <a href="#" class="btn-block">
+                                    <a href="javascript:void(0)" class="btn-block">
                                         I Need a Designer
                                     </a>
                             </div>
                             <div class="col-md-6 designerBtn">
 <!--                            <input type="checkbox" id="accountant" name="accountant" class="check-input">-->
-                                <a href="#" class="btn-block">
+                                <a href="javascript:void(0)" class="btn-block">
                                     I Need a Developer
                                 </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <select name="Select-time" class="form-control">
+                                <select name="Select-time" class="form-control no-border">
                                     <option value="partTime">Part time</option>
                                     <option value="fullTime">Full time</option>
                                 </select>

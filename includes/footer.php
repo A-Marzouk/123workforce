@@ -38,6 +38,16 @@
         });
     });
 
+    function handler1() {
+        $(this).css('border','1.5px solid #18A6DF');
+        $(this).one("click", handler2);
+    }
+    function handler2() {
+        $(this).css('border','1.5px solid #FFFFFF');
+        $(this).one("click", handler1);
+    }
+    $(".designerBtn a").one("click", handler1);
+
 </script>
 </body>
 </html>
