@@ -13,7 +13,7 @@
                 <a class="nav-item nav-link customNavLink active" href="#">Homepage</a>
                 <a class="nav-item nav-link customNavLink" href="/form/client/register/">Become a client</a>
                 <a class="nav-item nav-link customNavLink" href="#">Talk to sales</a>
-                <a href="#" class="loginBtn">Login</a>
+                <a href="/form/client/login/" class="loginBtn">Login</a>
             </div>
         </div>
     </nav>
