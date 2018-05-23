@@ -22,7 +22,7 @@
                 {
                     breakpoint: 478,
                     settings: {
-                        slidesPerRow: 1,
+                        slidesPerRow: 2,
                         rows: 1
                     }
                 },

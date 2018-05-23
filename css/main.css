@@ -3,11 +3,15 @@ body {
 
 .customContainer {
   padding: 0 0 0 8.50%; }
+  @media only screen and (max-width: 600px) {
+    .customContainer {
+      padding: 0; } }
 
 .customNav {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999; }
+  box-shadow: 0 8px 6px -6px #999;
+  background-color: white; }
 
 .customNavLink {
   opacity: 0.75;
@@ -24,8 +28,14 @@ body {
     font-weight: 300;
     padding-bottom: 10px; }
 
+.navbar-brand img {
+  width: 75%; }
+
 .navbar-collapse.collapse.in {
   display: block !important; }
+
+.loginBtnHolder {
+  margin-left: auto; }
 
 .loginBtn {
   padding: 6px 25px 7px 25px;
@@ -56,6 +66,9 @@ body {
   background-size: 15%;
   background-repeat: no-repeat;
   height: 420px; }
+  @media only screen and (max-width: 600px) {
+    #mainSection {
+      background: linear-gradient(0deg, #FFFFFF 0%, #FCFCFC 100%); } }
 
 .mainSectionHeading {
   padding: 12% 0 2% 0;
@@ -66,6 +79,14 @@ body {
   line-height: 44px; }
   .mainSectionHeading span {
     color: #18A6DF; }
+  @media only screen and (max-width: 600px) {
+    .mainSectionHeading {
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 30px;
+      text-align: center;
+      padding-right: 3%;
+      padding-left: 3%; } }
 
 .mainSectionSubHeading {
   color: #697786;
@@ -74,10 +95,23 @@ body {
   font-weight: 300;
   line-height: 24px;
   padding: 4% 0 2% 0; }
+  @media only screen and (max-width: 600px) {
+    .mainSectionSubHeading {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19px;
+      text-align: center;
+      padding-right: 3%;
+      padding-left: 3%;
+      padding-top: 12%; } }
 
 .buttonMain {
   padding: 5% 0 0 0;
   text-decoration: none; }
+  @media only screen and (max-width: 600px) {
+    .buttonMain {
+      text-align: center;
+      padding-top: 13%; } }
   .buttonMain a:hover {
     text-decoration: none; }
   .buttonMain .hireBtn {
@@ -103,6 +137,9 @@ body {
   line-height: 35px; }
   .secondSectionHeading span {
     color: #18A6DF; }
+  @media only screen and (max-width: 600px) {
+    .secondSectionHeading {
+      padding-left: 5%; } }
 
 /* Freelancers' boxes*/
 .freelancerItem {
@@ -150,7 +187,9 @@ body {
   font-weight: 500;
   line-height: 19px;
   text-align: center;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden; }
   .freelancerName :hover {
     text-decoration: none; }
 
@@ -161,7 +200,9 @@ body {
   font-weight: 300;
   line-height: 16px;
   text-align: center;
-  padding-top: 5px; }
+  padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden; }
   .freelancerJob :hover {
     text-decoration: none;
     border: 0px; }
@@ -193,43 +234,121 @@ body {
   padding-top: 10px; }
 
 #devDesBoxes {
+  margin-top: 10px;
   background: linear-gradient(270deg, #45E6EF 0%, #088FD9 100%); }
 
 .designerBox {
   border-radius: 5px;
   background-color: #FFFFFF;
-  box-shadow: 0 11px 16px -7px #E5ECED; }
+  box-shadow: 0 11px 16px -7px #E5ECED;
+  width: 100%;
+  margin-left: -8%;
+  margin-top: 10%; }
 
 .designerLeftSide {
-  border-right: 1px #ECECEC solid; }
+  padding: 18px; }
   .designerLeftSide h2 {
     opacity: 0.9;
     color: #464646;
     font-family: Roboto;
     font-size: 14px;
     line-height: 16px;
-    padding: 10px; }
+    padding: 10px;
+    margin-right: 10px; }
   .designerLeftSide img {
-    width: 20%; }
+    width: 37%; }
 
-.designerRightSide h2 {
-  opacity: 0.9;
-  color: #273D52;
-  font-family: Roboto;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 37px; }
-  .designerRightSide h2 img {
-    width: 7%; }
-.designerRightSide a {
-  opacity: 0.9;
+.designerRightSide {
+  padding: 20px; }
+  .designerRightSide h2 {
+    opacity: 0.9;
+    color: #273D52;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 37px; }
+    .designerRightSide h2 img {
+      width: 7%; }
+  .designerRightSide a {
+    opacity: 0.9;
+    color: #18A6DF;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px; }
+    .designerRightSide a img {
+      width: 2.5%; }
+    .designerRightSide a :hover {
+      text-decoration: none; }
+  .designerRightSide .getStartBtn {
+    border: 1px solid #D9F9FF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #18A6DF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 13px; }
+    .designerRightSide .getStartBtn img {
+      width: 7%; }
+
+#ourClients {
+  background: whitesmoke; }
+
+.heading h2 {
   color: #18A6DF;
   font-family: Roboto;
-  font-size: 14px;
-  line-height: 16px; }
-  .designerRightSide a img {
-    width: 2.5%; }
-  .designerRightSide a :hover {
-    text-decoration: none; }
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  padding: 5% 0 0 8.5%; }
+
+.clientsBox {
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 11px 16px -7px #E5ECED;
+  margin: 5% 5% 0 5%; }
+  .clientsBox .leftSide {
+    padding: 4%; }
+
+.footerText {
+  opacity: 0.5;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 30px; }
+  .footerText h2 {
+    padding-top: 1%;
+    opacity: 1;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right; }
+
+.customFooter {
+  background: whitesmoke;
+  height: 180px; }
+
+.footerImg {
+  padding-left: 34.5%; }
+  .footerImg img {
+    margin-top: 89px;
+    width: 20px;
+    padding: 2px;
+    margin-left: 3%; }
+
+.logoImg {
+  padding-right: 20px; }
+  .logoImg img {
+    width: 25%;
+    padding-top: 10%;
+    opacity: .5; }
 
 /*# sourceMappingURL=main.css.map */

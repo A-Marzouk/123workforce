@@ -4,6 +4,10 @@ body{
 
 .customContainer{
   padding : 0 0 0 8.50%;
+  @media only screen and (max-width: 600px){
+    padding:0;
+  }
+
 }
 
 // navbar
@@ -11,6 +15,7 @@ body{
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
+  background-color: white;
 }
 
 .customNavLink{
@@ -30,10 +35,18 @@ body{
   }
 }
 
+.navbar-brand{
+  img{
+    width: 75%;
+  }
+}
+
 .navbar-collapse.collapse.in {
   display: block!important;
 }
-
+.loginBtnHolder{
+  margin-left: auto;
+}
 .loginBtn{
   padding: 6px 25px 7px 25px;
   border: 1px solid rgba(24, 166, 223, 0.3);
@@ -68,6 +81,9 @@ body{
   background-size:15% ;
   background-repeat:no-repeat;
   height: 420px;
+  @media only screen and (max-width: 600px){
+    background: linear-gradient(0deg, #FFFFFF 0%, #FCFCFC 100%);
+  }
 }
 .mainSectionHeading{
   padding : 12% 0 2% 0;
@@ -79,20 +95,42 @@ body{
   span{
     color: #18A6DF;
   }
+  @media only screen and (max-width: 600px){
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
 }
 .mainSectionSubHeading{
-  color: #697786;	font-family: Roboto;	font-size: 20px;	font-weight: 300;	line-height: 24px;
+  color: #697786;
+  font-family: Roboto;
+  font-size: 20px;	font-weight: 300;
+  line-height: 24px;
   padding : 4% 0 2% 0;
+  @media only screen and (max-width: 600px){
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 12%;
+  }
 }
 
 .buttonMain{
   padding : 5% 0 0 0;
+  @media only screen and (max-width: 600px){
+    text-align: center;
+    padding-top: 13%;
+  }
   text-decoration: none;
-
   a:hover{
     text-decoration: none;
   }
-
   .hireBtn{
     border: 1px solid #44E5EF;
     border-radius: 24px;
@@ -121,7 +159,10 @@ body{
   span{
     color: #18A6DF;
   }
-}
+  @media only screen and (max-width: 600px) {
+    padding-left: 5%;
+  }
+  }
 
 /* Freelancers' boxes*/
 .freelancerItem{
@@ -132,6 +173,9 @@ body{
   border-radius: 50%;
   width: 100%;
   padding: 15px;
+  @media only screen and (max-width: 600px) {
+
+  }
 }
 
 .freelancerBox{
@@ -177,6 +221,8 @@ body{
   line-height: 19px;
   text-align: center;
   padding-bottom:10px;
+  white-space: nowrap;
+  overflow: hidden;
   :hover{
     text-decoration: none;
   }
@@ -190,6 +236,8 @@ body{
   line-height: 16px;
   text-align: center;
   padding-top:5px;
+  white-space: nowrap;
+  overflow: hidden;
   :hover{
     text-decoration: none;
     border: 0px;
@@ -235,6 +283,7 @@ body{
 // dev designer boxes :
 
 #devDesBoxes{
+  margin-top: 10px;
   background: linear-gradient(270deg, #45E6EF 0%, #088FD9 100%);
 }
 
@@ -242,10 +291,13 @@ body{
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 11px 16px -7px #E5ECED;
+  width: 100%;
+  margin-left: -8%;
+  margin-top: 10%;
 }
 
 .designerLeftSide{
-  border-right: 1px #ECECEC solid ;
+  padding: 18px;
   h2{
     opacity: 0.9;
     color: #464646;
@@ -253,13 +305,15 @@ body{
     font-size: 14px;
     line-height: 16px;
     padding: 10px;
+    margin-right: 10px;
   }
   img{
-    width: 20%;
+    width: 37%;
   }
 }
 
 .designerRightSide{
+  padding: 20px ;
   h2{
     opacity: 0.9;
     color: #273D52;
@@ -284,5 +338,91 @@ body{
     :hover{
       text-decoration: none;
     }
+  }
+
+  .getStartBtn{
+    img{
+      width: 7%;
+    }
+    border: 1px solid #D9F9FF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #18A6DF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 13px;
+  }
+
+}
+
+// our clients section
+#ourClients{
+  background: whitesmoke;
+}
+.heading{
+  h2{
+    color: #18A6DF;	font-family: Roboto;	font-size: 30px;	font-weight: bold;	line-height: 35px;
+    padding: 5% 0 0 8.5%;
+  }
+}
+
+.clientsBox{
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 11px 16px -7px #E5ECED;
+    .leftSide{
+      padding: 4%;
+    }
+   margin: 5% 5% 0 5%;
+}
+
+// footer :
+
+.footerText{
+  opacity: 0.5;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: right;
+  padding-top: 30px;
+  h2{
+    padding-top: 1%;
+    opacity: 1;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: right;
+  }
+}
+
+.customFooter{
+  background: whitesmoke;
+  height: 180px;
+}
+
+.footerImg{
+  padding-left: 34.5%;
+  img{
+    margin-top: 89px;
+    width: 20px;
+    padding: 2px;
+    margin-left: 3%;
+  }
+}
+
+.logoImg{
+  padding-right: 20px;
+  img{
+    width: 25%;
+    padding-top: 10%;
+    opacity: .5;
   }
 }

@@ -197,7 +197,7 @@
             <div class="row customContainer">
                 <div class="col-md-6">
                     <div class="secondSectionHeading">
-                        Global<br/><span>Freelancer Talent</span>
+                        Global<br/><span>Freelance Talent</span>
                         <div class="lineDivider"></div>
                     </div>
                     <div class="talentText">
@@ -212,10 +212,10 @@
 
         <div id="devDesBoxes">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5" style="margin-left: 11.5%;">
                     <div class="designerBox">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" style="border-right: 1px #ECECEC solid ;">
                                 <div class="designerLeftSide">
                                     <img src="images/new_theme/design_icon.png" alt="design image">
                                     <h2>
@@ -230,45 +230,93 @@
                                    </h2>
                                     <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Website/ App Design</a><br/>
                                     <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> UX/ UI Design</a><br>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Branding & Marketing</a>
+                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Branding & Marketing</a><br/>
+
+                                    <button class="getStartBtn">
+                                        Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
+                    <div class="designerBox">
+                        <div class="row">
+                            <div class="col-md-6" style="border-right: 1px #ECECEC solid ;">
+                                <div class="designerLeftSide">
+                                    <img src="images/new_theme/code_icon.png" alt="design image">
+                                    <h2>
+                                        Access Highly Skilled Developers proficient in programming languages such as Javascript, node.js, PHP, HTML/CSS, Python, Java, .NET                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="designerRightSide">
+                                    <h2>
+                                        <img src="images/new_theme/reg_developers@2x.png" alt="rec"> Developers
+                                    </h2>
+                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Full-Stack Developers</a><br/>
+                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Front-end Developers</a><br>
+                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Back-end Developers</a><br/>
 
+                                    <button class="getStartBtn">
+                                        Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ourClients">
+            <div class="heading">
+                <h2>
+                    We’re here to help you get started today
+                </h2>
+            </div>
+            <div class="row clientsBox">
+                <div class="col-md-6 leftSide">
+                    <div class="secondSectionHeading">
+                        We love<br/><span>Our clients.</span>
+                        <div class="lineDivider"></div>
+                    </div>
+                    <div class="talentText">
+                        Register your company today & we will connect you with the talent you need.
+                    </div>
+                </div>
+                <div class="col-md-6 rightSide">
+                    <img src="images/new_theme/20ff0a3e60.jpg" alt="test" width="100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="customFooter">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="footerImg">
+                        <img src="images/new_theme/fb.png" alt="facebook icon">
+                        <img src="images/new_theme/instagram.png" alt="instagram icon">
+                    </div>
+                </div>
+                <div class="col-md-5 text-right logoImg">
+                    <img src="images/new_theme/logo.png" alt="logo">
+                </div>
+                <div class="col-md-4">
+                    <div class="footerText">
+                        info@123workforce.com<br/>
+                        (+44) 2037000685<br/>
+                    </div>
+                    <div class="footerText">
+                       <h2>
+                           © Copyright 2018 123Workforce. All Rights Reserved.
+                       </h2>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <? require_once('includes/footer.php');?>
 
 
