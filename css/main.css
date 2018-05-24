@@ -264,6 +264,12 @@ body {
   #designerBox {
     padding: 20px; } }
 
+.borderRight {
+  border-right: 1px solid #ECECEC; }
+  @media only screen and (max-width: 600px) {
+    .borderRight {
+      border: 0; } }
+
 .designerLeftSide {
   padding: 18px; }
   .designerLeftSide h2 {

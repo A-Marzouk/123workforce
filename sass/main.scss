@@ -318,6 +318,13 @@ body{
   }
 }
 
+.borderRight{
+  border-right: 1px solid #ECECEC;
+  @media only screen and (max-width: 600px){
+   border: 0;
+  }
+}
+
 .designerLeftSide{
   padding: 18px;
   h2{
