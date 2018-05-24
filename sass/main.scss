@@ -1,6 +1,7 @@
 body{
   background: linear-gradient(0deg, #FFFFFF 0%, #FCFCFC 100%);
   overflow-x: hidden;
+  width: 100%;
 }
 
 .customContainer{
@@ -282,6 +283,9 @@ body{
   font-weight: 300;
   line-height: 24px;
   padding-top: 10px;
+  @media only screen and (max-width: 600px){
+    text-align: center;
+  }
 }
 
 
@@ -289,7 +293,7 @@ body{
 
 #devDesBoxes{
   margin-top: 10px;
-  background: linear-gradient(270deg, #45E6EF 0%, #088FD9 100%);
+  background: url('/background.svg');
 }
 
 .designerBox{
@@ -297,8 +301,19 @@ body{
   background-color: #FFFFFF;
   box-shadow: 0 11px 16px -7px #E5ECED;
   width: 100%;
-  margin-left: -8%;
-  margin-top: 10%;
+  margin-top: 5%;
+
+}
+
+#developerBox{
+  @media only screen and (max-width: 600px){
+    padding: 20px;
+  }
+}
+#designerBox{
+  @media only screen and (max-width: 600px){
+    padding: 20px;
+  }
 }
 
 .designerLeftSide{
@@ -372,11 +387,15 @@ body{
   h2{
     color: #18A6DF;	font-family: Roboto;	font-size: 30px;	font-weight: bold;	line-height: 35px;
     padding: 5% 0 0 8.5%;
+    @media only screen and (max-width: 600px){
+      text-align: center;
+      padding-right: 14px;
+    }
   }
 }
 
 .clientsBox{
-    height: 340px !important;
+    height: 340px;
     border-radius: 5px;
     background-color: #FFFFFF;
     box-shadow: 0 11px 16px -7px #E5ECED;
@@ -384,6 +403,9 @@ body{
       padding: 4%;
     }
    margin: 5% 5% 0 5%;
+  @media only screen and (max-width: 600px){
+    height: auto;
+  }
 }
 
 // footer :
@@ -397,6 +419,9 @@ body{
   line-height: 16px;
   text-align: right;
   padding-top: 30px;
+  @media only screen and (max-width: 600px) {
+    text-align: center;
+  }
   h2{
     padding-top: 1%;
     opacity: 1;
@@ -406,12 +431,18 @@ body{
     font-weight: 500;
     line-height: 16px;
     text-align: right;
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
   }
 }
 
 .customFooter{
   background: whitesmoke;
   height: 180px;
+  @media only screen and (max-width: 600px) {
+    height: auto;
+  }
 }
 
 .footerImg{
@@ -421,6 +452,13 @@ body{
     width: 20px;
     padding: 2px;
     margin-left: 3%;
+    @media only screen and (max-width: 600px) {
+      margin-left: 1%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    padding-left:0;
+    text-align: center;
   }
 }
 

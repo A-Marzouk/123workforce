@@ -212,60 +212,66 @@
 
         <div id="devDesBoxes">
             <div class="row">
-                <div class="col-md-5" style="margin-left: 11.5%;">
-                    <div class="designerBox">
-                        <div class="row">
-                            <div class="col-md-6" style="border-right: 1px #ECECEC solid ;">
-                                <div class="designerLeftSide">
-                                    <img src="images/new_theme/design_icon.png" alt="design image">
-                                    <h2>
-                                        Access to a network of insightful, emotionally intelligent & professional designers specializing in UI & UX Design , with artistic creative vision , inspiration and understanding  of user engagement.
-                                    </h2>
+                <div class="col-md-5 addMargin offset-md-1">
+                    <div id="designerBox">
+                        <div class="designerBox">
+                            <div class="row">
+                                <div class="col-md-6 borderRight">
+                                    <div class="designerLeftSide">
+                                        <img src="images/new_theme/design_icon.png" alt="design image">
+                                        <h2>
+                                            Access to a network of insightful, emotionally intelligent & professional designers specializing in UI & UX Design , with artistic creative vision , inspiration and understanding  of user engagement.
+                                        </h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="designerRightSide">
-                                   <h2>
-                                       <img src="images/new_theme/rec_developers@2x.png" alt="rec"> Designers
-                                   </h2>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Website/ App Design</a><br/>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> UX/ UI Design</a><br>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Branding & Marketing</a><br/>
+                                <div class="col-md-6">
+                                    <div class="designerRightSide">
+                                        <h2>
+                                            <img src="images/new_theme/rec_developers@2x.png" alt="rec"> Designers
+                                        </h2>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Website/ App Design</a><br/>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> UX/ UI Design</a><br>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Branding & Marketing</a><br/>
 
-                                    <button class="getStartBtn">
-                                        Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
-                                    </button>
+                                        <button class="getStartBtn">
+                                            Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="col-md-5">
-                    <div class="designerBox">
-                        <div class="row">
-                            <div class="col-md-6" style="border-right: 1px #ECECEC solid ;">
-                                <div class="designerLeftSide">
-                                    <img src="images/new_theme/code_icon.png" alt="design image">
-                                    <h2>
-                                        Access Highly Skilled Developers proficient in programming languages such as Javascript, node.js, PHP, HTML/CSS, Python, Java, .NET                                    </h2>
+                    <div id="developerBox">
+                        <div class="designerBox" >
+                            <div class="row">
+                                <div class="col-md-6 borderRight">
+                                    <div class="designerLeftSide">
+                                        <img src="images/new_theme/code_icon.png" alt="design image">
+                                        <h2>
+                                            Access Highly Skilled Developers proficient in programming languages such as Javascript, node.js, PHP, HTML/CSS, Python, Java, .NET                                    </h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="designerRightSide">
-                                    <h2>
-                                        <img src="images/new_theme/reg_developers@2x.png" alt="rec"> Developers
-                                    </h2>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Full-Stack Developers</a><br/>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Front-end Developers</a><br>
-                                    <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Back-end Developers</a><br/>
+                                <div class="col-md-6">
+                                    <div class="designerRightSide">
+                                        <h2>
+                                            <img src="images/new_theme/reg_developers@2x.png" alt="rec"> Developers
+                                        </h2>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Full-Stack Developers</a><br/>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Front-end Developers</a><br>
+                                        <a href="#"><img src="images/new_theme/arrow@2x.png" alt="arrow"> Back-end Developers</a><br/>
 
-                                    <button class="getStartBtn">
-                                        Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
-                                    </button>
+                                        <button class="getStartBtn">
+                                            Get Started <img src="images/new_theme/arrow@2x.png" alt="arrow">
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -346,13 +352,13 @@
 
         <div class="customFooter">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-6 col-sm-6">
                     <div class="footerImg">
                         <img src="images/new_theme/fb.png" alt="facebook icon">
                         <img src="images/new_theme/instagram.png" alt="instagram icon">
                     </div>
                 </div>
-                <div class="col-md-5 text-right logoImg">
+                <div class="col-md-5 text-right logoImg .d-none .d-md-block">
 
                 </div>
                 <div class="col-md-4">

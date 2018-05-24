@@ -24,15 +24,15 @@
                 {
                     breakpoint: 478,
                     settings: {
-                        slidesPerRow: 2,
-                        rows: 1
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
                     }
                 },
                 {
                     breakpoint: 680,
                     settings: {
-                        slidesPerRow: 2,
-                        rows: 1
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                     }
                 }
             ]

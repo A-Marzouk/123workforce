@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(0deg, #FFFFFF 0%, #FCFCFC 100%);
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100%; }
 
 .customContainer {
   padding: 0 0 0 8.50%; }
@@ -237,18 +238,28 @@ body {
   font-weight: 300;
   line-height: 24px;
   padding-top: 10px; }
+  @media only screen and (max-width: 600px) {
+    .talentText {
+      text-align: center; } }
 
 #devDesBoxes {
   margin-top: 10px;
-  background: linear-gradient(270deg, #45E6EF 0%, #088FD9 100%); }
+  background: url("/background.svg"); }
 
 .designerBox {
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 11px 16px -7px #E5ECED;
   width: 100%;
-  margin-left: -8%;
-  margin-top: 10%; }
+  margin-top: 5%; }
+
+@media only screen and (max-width: 600px) {
+  #developerBox {
+    padding: 20px; } }
+
+@media only screen and (max-width: 600px) {
+  #designerBox {
+    padding: 20px; } }
 
 .designerLeftSide {
   padding: 18px; }
@@ -309,15 +320,22 @@ body {
   font-weight: bold;
   line-height: 35px;
   padding: 5% 0 0 8.5%; }
+  @media only screen and (max-width: 600px) {
+    .heading h2 {
+      text-align: center;
+      padding-right: 14px; } }
 
 .clientsBox {
-  height: 340px !important;
+  height: 340px;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 11px 16px -7px #E5ECED;
   margin: 5% 5% 0 5%; }
   .clientsBox .leftSide {
     padding: 4%; }
+  @media only screen and (max-width: 600px) {
+    .clientsBox {
+      height: auto; } }
 
 .footerText {
   opacity: 0.5;
@@ -328,6 +346,9 @@ body {
   line-height: 16px;
   text-align: right;
   padding-top: 30px; }
+  @media only screen and (max-width: 600px) {
+    .footerText {
+      text-align: center; } }
   .footerText h2 {
     padding-top: 1%;
     opacity: 1;
@@ -337,10 +358,16 @@ body {
     font-weight: 500;
     line-height: 16px;
     text-align: right; }
+    @media only screen and (max-width: 600px) {
+      .footerText h2 {
+        text-align: center; } }
 
 .customFooter {
   background: whitesmoke;
   height: 180px; }
+  @media only screen and (max-width: 600px) {
+    .customFooter {
+      height: auto; } }
 
 .footerImg {
   padding-left: 34.5%; }
@@ -349,6 +376,13 @@ body {
     width: 20px;
     padding: 2px;
     margin-left: 3%; }
+    @media only screen and (max-width: 600px) {
+      .footerImg img {
+        margin-left: 1%; } }
+  @media only screen and (max-width: 600px) {
+    .footerImg {
+      padding-left: 0;
+      text-align: center; } }
 
 .logoImg {
   padding-right: 20px; }
