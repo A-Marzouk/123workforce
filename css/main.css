@@ -62,8 +62,8 @@ body {
 
 .line {
   transform: scaleY(-1);
-  background-color: #F8F8F8;
-  padding: 2px 0 0 0; }
+  background-color: whitesmoke;
+  padding: 3px 0 0 0; }
 
 #mainSection {
   background: url("/images/new_theme/rectangle_big.png");
@@ -230,6 +230,9 @@ body {
 
 .slick-prev:before {
   color: black; }
+
+#freelanceTalent {
+  padding: 20px 0 10px 0; }
 
 .talentText {
   color: #697786;

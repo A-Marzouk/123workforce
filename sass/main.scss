@@ -73,8 +73,8 @@ body{
 }
 .line{
   transform: scaleY(-1);
-  background-color: #F8F8F8;
-  padding : 2px 0 0 0;
+  background-color: whitesmoke;
+  padding : 3px 0 0 0;
 }
 
 // main section ( one )
@@ -275,7 +275,9 @@ body{
 }
 
 //  freelancer talent :
-
+#freelanceTalent{
+  padding: 20px 0 10px 0 ;
+}
 .talentText{
   color: #697786;
   font-family: Roboto;
