@@ -274,8 +274,14 @@ body {
     line-height: 16px;
     padding: 10px;
     margin-right: 10px; }
+    @media only screen and (max-width: 600px) {
+      .designerLeftSide h2 {
+        padding: 5px 0 0 0; } }
   .designerLeftSide img {
     width: 37%; }
+    @media only screen and (max-width: 600px) {
+      .designerLeftSide img {
+        width: 20%; } }
 
 .designerRightSide {
   padding: 20px; }

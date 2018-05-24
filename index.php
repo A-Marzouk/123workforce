@@ -216,7 +216,7 @@
                     <div id="designerBox">
                         <div class="designerBox">
                             <div class="row">
-                                <div class="col-md-6 borderRight">
+                                <div class="col-md-6 col-sm-12 borderRight">
                                     <div class="designerLeftSide">
                                         <img src="images/new_theme/design_icon.png" alt="design image">
                                         <h2>
@@ -224,7 +224,7 @@
                                         </h2>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-12">
                                     <div class="designerRightSide">
                                         <h2>
                                             <img src="images/new_theme/rec_developers@2x.png" alt="rec"> Designers

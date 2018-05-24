@@ -328,9 +328,15 @@ body{
     line-height: 16px;
     padding: 10px;
     margin-right: 10px;
+    @media only screen and (max-width: 600px){
+      padding: 5px 0 0 0;
+    }
   }
   img{
     width: 37%;
+    @media only screen and (max-width: 600px){
+      width: 20%;
+    }
   }
 }
 
